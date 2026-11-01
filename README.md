@@ -1,13 +1,18 @@
-# Smart Parking System 🚗
+# 🚗 Smart Parking System
 
-A web-based Smart Parking System built on Raspberry Pi 5 to monitor and manage parking slots in real time. It uses Node.js and Express to deliver a simple API and status dashboard.
+An IoT-enabled, real-time parking management solution powered by **Raspberry Pi 5**, **Node.js**, and **Express**. Designed for automated slot tracking, system alerts, and remote web dashboard management.
 
 ---
 
-### 📂 Files & Folders Overview
+## 📐 Project Architecture & File Descriptions
 
-* **`src/`**: Folder containing the core backend source code for the application.
-* **`src/index.js`**: Main entry script that starts the Express server and manages parking slot states.
-* **`package.json`**: Configuration file that defines project details and tracks installed npm packages.
-* **`package-lock.json`**: Auto-generated file that locks exact versions of all installed dependencies.
-* **`README.md`**: Documentation file explaining the project purpose and file structure.
+```text
+smart-parking-system/
+├── src/
+│   └── index.js          # Core application logic & Express server setup
+├── docs/                 # System documentation & hardware schematics
+├── .gitignore            # Git exclusion rules for sensitive & build files
+├── package.json          # Node.js project manifest & dependencies
+├── package-lock.json     # Dependency lock file for reproducible builds
+└── README.md             # Technical overview & repository documentation
+  
