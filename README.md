@@ -10,7 +10,6 @@ An IoT-enabled, real-time parking management solution powered by **Raspberry Pi 
 smart-parking-system/
 ├── src/
 │   └── index.js          # Core application logic & Express server setup
-├── docs/                 # System documentation & hardware schematics
 ├── .gitignore            # Git exclusion rules for sensitive & build files
 ├── package.json          # Node.js project manifest & dependencies
 ├── package-lock.json     # Dependency lock file for reproducible builds
